@@ -1,0 +1,9 @@
+SCRAPEOPS_URL=this_will_be_added_in_live
+SCRAPEOPS_API_KEY=this_will_be_added_in_live
+SEARCH_API_KEY=this_will_be_added_in_live
+SEARCH_API_URL=this_will_be_added_in_live
+
+SERVICE_TOKEN=test_token
+
+LOG_LEVEL=INFO
+LOG_JSON=false

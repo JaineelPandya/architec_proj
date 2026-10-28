@@ -1,0 +1,1942 @@
+{
+  "project_root": "data/workspace/a18ada5120804ec6b1476194bba0c862",
+  "file_count": 81,
+  "files": [
+    "__MACOSX/enforcement_crawl 5/._test_crawler.py",
+    "__MACOSX/enforcement_crawl 5/._test_sebi.py",
+    "__MACOSX/enforcement_crawl 5/app/._main.py",
+    "__MACOSX/enforcement_crawl 5/app/core/._auth.py",
+    "__MACOSX/enforcement_crawl 5/app/core/._cache.py",
+    "__MACOSX/enforcement_crawl 5/app/core/._config.py",
+    "__MACOSX/enforcement_crawl 5/app/core/._http_client.py",
+    "__MACOSX/enforcement_crawl 5/app/router/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/router/._bse.py",
+    "__MACOSX/enforcement_crawl 5/app/router/._nse.py",
+    "__MACOSX/enforcement_crawl 5/app/router/._nse_regulations.py",
+    "__MACOSX/enforcement_crawl 5/app/router/._sat.py",
+    "__MACOSX/enforcement_crawl 5/app/router/._sebi.py",
+    "__MACOSX/enforcement_crawl 5/app/services/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/bse/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/bse/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/bse/._service.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/._service.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._constants.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._service.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/._service.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sat/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sat/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sat/._service copy.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sat/._service.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sebi/.___init__.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sebi/._departments.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sebi/._pdf_circular_extractor.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sebi/._schema.py",
+    "__MACOSX/enforcement_crawl 5/app/services/sebi/._service.py",
+    "__MACOSX/enforcement_crawl 5/tests/._test_departments.py",
+    "__MACOSX/enforcement_crawl 5/tests/._test_nse_announcements.py",
+    "__MACOSX/enforcement_crawl 5/tests/._test_pdf_fallback.py",
+    "__MACOSX/enforcement_crawl 5/tests/._test_sat_proxy_session.py",
+    "enforcement_crawl 5/app/core/auth.py",
+    "enforcement_crawl 5/app/core/cache.py",
+    "enforcement_crawl 5/app/core/config.py",
+    "enforcement_crawl 5/app/core/http_client.py",
+    "enforcement_crawl 5/app/main.py",
+    "enforcement_crawl 5/app/router/__init__.py",
+    "enforcement_crawl 5/app/router/bse.py",
+    "enforcement_crawl 5/app/router/nse.py",
+    "enforcement_crawl 5/app/router/nse_regulations.py",
+    "enforcement_crawl 5/app/router/sat.py",
+    "enforcement_crawl 5/app/router/sebi.py",
+    "enforcement_crawl 5/app/services/__init__.py",
+    "enforcement_crawl 5/app/services/bse/__init__.py",
+    "enforcement_crawl 5/app/services/bse/schema.py",
+    "enforcement_crawl 5/app/services/bse/service.py",
+    "enforcement_crawl 5/app/services/nse/__init__.py",
+    "enforcement_crawl 5/app/services/nse/announcements/__init__.py",
+    "enforcement_crawl 5/app/services/nse/announcements/constants.py",
+    "enforcement_crawl 5/app/services/nse/announcements/schema.py",
+    "enforcement_crawl 5/app/services/nse/announcements/service.py",
+    "enforcement_crawl 5/app/services/nse/schema.py",
+    "enforcement_crawl 5/app/services/nse/service.py",
+    "enforcement_crawl 5/app/services/nse_regulations/__init__.py",
+    "enforcement_crawl 5/app/services/nse_regulations/schema.py",
+    "enforcement_crawl 5/app/services/nse_regulations/service.py",
+    "enforcement_crawl 5/app/services/sat/__init__.py",
+    "enforcement_crawl 5/app/services/sat/schema.py",
+    "enforcement_crawl 5/app/services/sat/service copy.py",
+    "enforcement_crawl 5/app/services/sat/service.py",
+    "enforcement_crawl 5/app/services/sebi/__init__.py",
+    "enforcement_crawl 5/app/services/sebi/departments.py",
+    "enforcement_crawl 5/app/services/sebi/pdf_circular_extractor.py",
+    "enforcement_crawl 5/app/services/sebi/schema.py",
+    "enforcement_crawl 5/app/services/sebi/service.py",
+    "enforcement_crawl 5/requirements.txt",
+    "enforcement_crawl 5/test_crawler.py",
+    "enforcement_crawl 5/test_sebi.py",
+    "enforcement_crawl 5/tests/test_departments.py",
+    "enforcement_crawl 5/tests/test_nse_announcements.py",
+    "enforcement_crawl 5/tests/test_pdf_fallback.py",
+    "enforcement_crawl 5/tests/test_sat_proxy_session.py"
+  ],
+  "python_module_count": 80,
+  "python_modules": [
+    {
+      "file": "enforcement_crawl 5/test_sebi.py",
+      "imports": [
+        "app.core.http_client",
+        "asyncio",
+        "bs4",
+        "httpx"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "main",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/test_crawler.py",
+      "imports": [
+        "app.services.sebi.schema",
+        "app.services.sebi.service",
+        "asyncio",
+        "traceback"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "main",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/main.py",
+      "imports": [
+        "app.core.auth",
+        "app.core.config",
+        "app.router.bse",
+        "app.router.nse",
+        "app.router.nse_regulations",
+        "app.router.sat",
+        "app.router.sebi",
+        "datetime",
+        "dotenv",
+        "enum",
+        "fastapi",
+        "fastapi.responses",
+        "json",
+        "logging",
+        "logging.config",
+        "pathlib",
+        "re",
+        "time",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "LogType",
+          "line": 16
+        },
+        {
+          "type": "class",
+          "name": "LogLevel",
+          "line": 25
+        },
+        {
+          "type": "class",
+          "name": "_RedactingFilter",
+          "line": 45
+        },
+        {
+          "type": "function",
+          "name": "_configure_logging",
+          "line": 55
+        },
+        {
+          "type": "function",
+          "name": "log_requests",
+          "line": 178
+        },
+        {
+          "type": "function",
+          "name": "unhandled_exception_handler",
+          "line": 189
+        },
+        {
+          "type": "function",
+          "name": "view_logs",
+          "line": 212
+        },
+        {
+          "type": "function",
+          "name": "root",
+          "line": 352
+        },
+        {
+          "type": "function",
+          "name": "health_check",
+          "line": 357
+        },
+        {
+          "type": "function",
+          "name": "filter",
+          "line": 46
+        },
+        {
+          "type": "class",
+          "name": "DailyRotatingFileHandler",
+          "line": 84
+        },
+        {
+          "type": "class",
+          "name": "_JsonFormatter",
+          "line": 58
+        },
+        {
+          "type": "function",
+          "name": "__init__",
+          "line": 85
+        },
+        {
+          "type": "function",
+          "name": "_current_filename",
+          "line": 94
+        },
+        {
+          "type": "function",
+          "name": "_ensure_delegate",
+          "line": 98
+        },
+        {
+          "type": "function",
+          "name": "setFormatter",
+          "line": 127
+        },
+        {
+          "type": "function",
+          "name": "emit",
+          "line": 132
+        },
+        {
+          "type": "function",
+          "name": "close",
+          "line": 141
+        },
+        {
+          "type": "function",
+          "name": "format",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/tests/test_nse_announcements.py",
+      "imports": [
+        "app.services.nse.announcements.schema",
+        "app.services.nse.announcements.service",
+        "datetime",
+        "unittest"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "TestNseAnnouncements",
+          "line": 8
+        },
+        {
+          "type": "function",
+          "name": "test_query_accepts_dd_mm_yyyy",
+          "line": 9
+        },
+        {
+          "type": "function",
+          "name": "test_query_accepts_yyyy_mm_dd",
+          "line": 14
+        },
+        {
+          "type": "function",
+          "name": "test_item_formats_broadcast_dates_to_dd_mm_yyyy",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/tests/test_departments.py",
+      "imports": [
+        "app.services.sebi.departments",
+        "app.services.sebi.service",
+        "re",
+        "unittest"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "TestDetectDepartment",
+          "line": 36
+        },
+        {
+          "type": "class",
+          "name": "TestAssignDepartmentCircularNoPath",
+          "line": 175
+        },
+        {
+          "type": "class",
+          "name": "TestAssignDepartmentFallback",
+          "line": 216
+        },
+        {
+          "type": "class",
+          "name": "TestReverseDepartmentMap",
+          "line": 389
+        },
+        {
+          "type": "class",
+          "name": "TestConfirmedCircularAndDepartmentOverrides",
+          "line": 413
+        },
+        {
+          "type": "function",
+          "name": "test_lad_standard_prefix",
+          "line": 40
+        },
+        {
+          "type": "function",
+          "name": "test_lad_sebi_ho_prefix",
+          "line": 45
+        },
+        {
+          "type": "function",
+          "name": "test_lad_sebi_ho_latest",
+          "line": 50
+        },
+        {
+          "type": "function",
+          "name": "test_lad_cir_prefix",
+          "line": 55
+        },
+        {
+          "type": "function",
+          "name": "test_lad_ho_prefix_short",
+          "line": 60
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_standard_prefix",
+          "line": 65
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_sebi_ho_prefix",
+          "line": 70
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_sebi_ho_cir",
+          "line": 75
+        },
+        {
+          "type": "function",
+          "name": "test_ho_mrd_pod",
+          "line": 81
+        },
+        {
+          "type": "function",
+          "name": "test_ho_mirsd_pod",
+          "line": 86
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_ho_cfd_div",
+          "line": 91
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_ho_imd",
+          "line": 96
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_ho_itd",
+          "line": 101
+        },
+        {
+          "type": "function",
+          "name": "test_all_canonical_codes_detect",
+          "line": 107
+        },
+        {
+          "type": "function",
+          "name": "test_alias_smdrp_resolves_to_mrd",
+          "line": 115
+        },
+        {
+          "type": "function",
+          "name": "test_alias_mfd_resolves_to_imd",
+          "line": 120
+        },
+        {
+          "type": "function",
+          "name": "test_alias_smd_resolves_to_mrd",
+          "line": 125
+        },
+        {
+          "type": "function",
+          "name": "test_alias_idd_resolves_to_ivd",
+          "line": 130
+        },
+        {
+          "type": "function",
+          "name": "test_alias_fii_resolves_to_afd",
+          "line": 135
+        },
+        {
+          "type": "function",
+          "name": "test_alias_pmd_resolves_to_cfd",
+          "line": 143
+        },
+        {
+          "type": "function",
+          "name": "test_ho_prefix_skipped",
+          "line": 149
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_prefix_skipped",
+          "line": 154
+        },
+        {
+          "type": "function",
+          "name": "test_none_returns_none",
+          "line": 159
+        },
+        {
+          "type": "function",
+          "name": "test_empty_string_returns_none",
+          "line": 164
+        },
+        {
+          "type": "function",
+          "name": "test_whitespace_only_returns_none",
+          "line": 169
+        },
+        {
+          "type": "function",
+          "name": "test_lad_via_circular_no",
+          "line": 178
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_via_circular_no",
+          "line": 183
+        },
+        {
+          "type": "function",
+          "name": "test_mrd_via_circular_no",
+          "line": 188
+        },
+        {
+          "type": "function",
+          "name": "test_return_keys_include_both_cases",
+          "line": 193
+        },
+        {
+          "type": "function",
+          "name": "test_numeric_only_circular_no_uses_fallback",
+          "line": 204
+        },
+        {
+          "type": "function",
+          "name": "test_numeric_only_no_fallback_returns_none",
+          "line": 210
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_alternative_investment_fund",
+          "line": 220
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_corporation_finance",
+          "line": 229
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_department_economic_policy",
+          "line": 233
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_ddhs",
+          "line": 241
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_enforcement_dept_1",
+          "line": 247
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_information_technology",
+          "line": 252
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_investment_management",
+          "line": 256
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_mirsd",
+          "line": 260
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_market_regulation",
+          "line": 269
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_oiae",
+          "line": 273
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dropdown_integrated_surveillance",
+          "line": 279
+        },
+        {
+          "type": "function",
+          "name": "test_historical_secondary_market_dept",
+          "line": 285
+        },
+        {
+          "type": "function",
+          "name": "test_historical_mutual_funds_dept",
+          "line": 289
+        },
+        {
+          "type": "function",
+          "name": "test_historical_primary_market_dept",
+          "line": 293
+        },
+        {
+          "type": "function",
+          "name": "test_historical_derivatives_new_products",
+          "line": 297
+        },
+        {
+          "type": "function",
+          "name": "test_all_department_label_returns_none",
+          "line": 304
+        },
+        {
+          "type": "function",
+          "name": "test_sebi_dash_all_department_label_returns_none",
+          "line": 310
+        },
+        {
+          "type": "function",
+          "name": "test_empty_fallback_returns_none",
+          "line": 316
+        },
+        {
+          "type": "function",
+          "name": "test_none_fallback_returns_none",
+          "line": 320
+        },
+        {
+          "type": "function",
+          "name": "test_single_word_department_no_false_positive",
+          "line": 325
+        },
+        {
+          "type": "function",
+          "name": "test_single_word_office_no_false_positive",
+          "line": 330
+        },
+        {
+          "type": "function",
+          "name": "test_single_word_legal_no_false_positive",
+          "line": 334
+        },
+        {
+          "type": "function",
+          "name": "test_single_word_recovery_no_false_positive",
+          "line": 338
+        },
+        {
+          "type": "function",
+          "name": "test_single_word_enforcement_no_false_positive",
+          "line": 342
+        },
+        {
+          "type": "function",
+          "name": "test_all_word_no_false_positive",
+          "line": 346
+        },
+        {
+          "type": "function",
+          "name": "test_lad_full_name_via_fallback",
+          "line": 351
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_full_name_via_fallback",
+          "line": 356
+        },
+        {
+          "type": "function",
+          "name": "test_lad_uppercase_via_fallback",
+          "line": 361
+        },
+        {
+          "type": "function",
+          "name": "test_rrd_uppercase_via_fallback",
+          "line": 367
+        },
+        {
+          "type": "function",
+          "name": "test_partial_market_regulation_two_words",
+          "line": 373
+        },
+        {
+          "type": "function",
+          "name": "test_partial_information_technology_two_words",
+          "line": 378
+        },
+        {
+          "type": "function",
+          "name": "test_partial_legal_affairs_two_words",
+          "line": 383
+        },
+        {
+          "type": "function",
+          "name": "test_all_dept_map_codes_in_reverse_map",
+          "line": 392
+        },
+        {
+          "type": "function",
+          "name": "test_no_none_values_in_reverse_map",
+          "line": 402
+        },
+        {
+          "type": "function",
+          "name": "test_all_60_circular_and_department_overrides",
+          "line": 416
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/tests/test_sat_proxy_session.py",
+      "imports": [
+        "app.services.sat",
+        "httpx",
+        "logging",
+        "unittest",
+        "unittest.mock"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "TestSatProxySession",
+          "line": 9
+        },
+        {
+          "type": "function",
+          "name": "test_get_and_date_posts_reuse_proxy_session_and_cookie",
+          "line": 10
+        },
+        {
+          "type": "function",
+          "name": "test_proxy_get_warns_when_php_session_cookie_missing",
+          "line": 91
+        },
+        {
+          "type": "function",
+          "name": "test_capture_cookies_from_sops_response_cookies",
+          "line": 119
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/tests/test_pdf_fallback.py",
+      "imports": [
+        "app.services.sebi.departments",
+        "app.services.sebi.pdf_circular_extractor",
+        "app.services.sebi.service",
+        "asyncio",
+        "httpx",
+        "os",
+        "unittest",
+        "unittest.mock"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_create_minimal_pdf_bytes",
+          "line": 43
+        },
+        {
+          "type": "class",
+          "name": "TestPdfAndHtmlCircularFallback",
+          "line": 74
+        },
+        {
+          "type": "function",
+          "name": "test_1_already_resolved_record_does_not_fetch",
+          "line": 76
+        },
+        {
+          "type": "function",
+          "name": "test_1b_missing_circular_no_triggers_fallback_even_if_department_known",
+          "line": 94
+        },
+        {
+          "type": "function",
+          "name": "test_2_circular_no_present_does_not_fetch",
+          "line": 114
+        },
+        {
+          "type": "function",
+          "name": "test_3_unresolved_record_invokes_pdf_fallback",
+          "line": 135
+        },
+        {
+          "type": "function",
+          "name": "test_4_cdmrd_circular_extraction_and_resolution",
+          "line": 177
+        },
+        {
+          "type": "function",
+          "name": "test_5_pdf_with_internal_spaces",
+          "line": 189
+        },
+        {
+          "type": "function",
+          "name": "test_5b_pdf_with_fpic_and_ampersand",
+          "line": 197
+        },
+        {
+          "type": "function",
+          "name": "test_5c_header_priority_over_cited_references",
+          "line": 203
+        },
+        {
+          "type": "function",
+          "name": "test_6_historical_departments",
+          "line": 217
+        },
+        {
+          "type": "function",
+          "name": "test_7_html_circular_extraction",
+          "line": 233
+        },
+        {
+          "type": "function",
+          "name": "test_8_pdf_without_circular_number_returns_unresolved_gracefully",
+          "line": 256
+        },
+        {
+          "type": "function",
+          "name": "test_9_no_pdf_or_html_files_created_on_disk",
+          "line": 266
+        },
+        {
+          "type": "function",
+          "name": "test_10_http_and_fallback_errors_do_not_crash_crawler",
+          "line": 290
+        },
+        {
+          "type": "function",
+          "name": "test_11_bare_number_and_file_number_patterns",
+          "line": 321
+        },
+        {
+          "type": "function",
+          "name": "test_12_modern_circular_overrides",
+          "line": 331
+        },
+        {
+          "type": "function",
+          "name": "_mock_stream",
+          "line": 149
+        },
+        {
+          "type": "function",
+          "name": "count_files",
+          "line": 270
+        },
+        {
+          "type": "function",
+          "name": "_failing_stream",
+          "line": 299
+        },
+        {
+          "type": "class",
+          "name": "_MockStreamResp",
+          "line": 150
+        },
+        {
+          "type": "class",
+          "name": "_FailingResp",
+          "line": 300
+        },
+        {
+          "type": "function",
+          "name": "raise_for_status",
+          "line": 151
+        },
+        {
+          "type": "function",
+          "name": "aiter_bytes",
+          "line": 153
+        },
+        {
+          "type": "function",
+          "name": "__aenter__",
+          "line": 155
+        },
+        {
+          "type": "function",
+          "name": "__aexit__",
+          "line": 157
+        },
+        {
+          "type": "function",
+          "name": "raise_for_status",
+          "line": 301
+        },
+        {
+          "type": "function",
+          "name": "aiter_bytes",
+          "line": 303
+        },
+        {
+          "type": "function",
+          "name": "__aenter__",
+          "line": 305
+        },
+        {
+          "type": "function",
+          "name": "__aexit__",
+          "line": 307
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/core/auth.py",
+      "imports": [
+        "app.core.config",
+        "fastapi",
+        "fastapi.security",
+        "secrets"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "require_service_token",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/core/config.py",
+      "imports": [
+        "pydantic",
+        "pydantic_settings"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "Settings",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/core/http_client.py",
+      "imports": [
+        "app.core.config",
+        "asyncio",
+        "curl_cffi",
+        "curl_cffi.requests",
+        "httpx",
+        "logging",
+        "random",
+        "urllib.parse"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "get_headers",
+          "line": 48
+        },
+        {
+          "type": "class",
+          "name": "ProxyError",
+          "line": 75
+        },
+        {
+          "type": "function",
+          "name": "_build_full_target_url",
+          "line": 79
+        },
+        {
+          "type": "function",
+          "name": "fetch_with_proxy",
+          "line": 94
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/core/cache.py",
+      "imports": [
+        "hashlib",
+        "logging",
+        "threading",
+        "time"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "TTLCache",
+          "line": 34
+        },
+        {
+          "type": "function",
+          "name": "__init__",
+          "line": 44
+        },
+        {
+          "type": "function",
+          "name": "make_key",
+          "line": 61
+        },
+        {
+          "type": "function",
+          "name": "get",
+          "line": 74
+        },
+        {
+          "type": "function",
+          "name": "set",
+          "line": 92
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/sebi.py",
+      "imports": [
+        "app.services.sebi.schema",
+        "app.services.sebi.service",
+        "fastapi",
+        "logging"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "health",
+          "line": 37
+        },
+        {
+          "type": "function",
+          "name": "info",
+          "line": 44
+        },
+        {
+          "type": "function",
+          "name": "circular",
+          "line": 108
+        },
+        {
+          "type": "function",
+          "name": "master_circular",
+          "line": 146
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/nse_regulations.py",
+      "imports": [
+        "app.services.nse_regulations.schema",
+        "app.services.nse_regulations.service",
+        "fastapi",
+        "logging"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "health",
+          "line": 31
+        },
+        {
+          "type": "function",
+          "name": "info",
+          "line": 38
+        },
+        {
+          "type": "function",
+          "name": "documents",
+          "line": 92
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/sat.py",
+      "imports": [
+        "app.services.sat.schema",
+        "app.services.sat.service",
+        "fastapi",
+        "logging"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "health",
+          "line": 31
+        },
+        {
+          "type": "function",
+          "name": "info",
+          "line": 38
+        },
+        {
+          "type": "function",
+          "name": "orders_date_wise",
+          "line": 88
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/bse.py",
+      "imports": [
+        "app.services.bse.schema",
+        "app.services.bse.service",
+        "fastapi",
+        "logging"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "health",
+          "line": 31
+        },
+        {
+          "type": "function",
+          "name": "info",
+          "line": 38
+        },
+        {
+          "type": "function",
+          "name": "circular",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/router/nse.py",
+      "imports": [
+        "app.services.nse.announcements.schema",
+        "app.services.nse.announcements.service",
+        "app.services.nse.schema",
+        "app.services.nse.service",
+        "fastapi",
+        "logging"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "health",
+          "line": 35
+        },
+        {
+          "type": "function",
+          "name": "info",
+          "line": 42
+        },
+        {
+          "type": "function",
+          "name": "circulars",
+          "line": 94
+        },
+        {
+          "type": "function",
+          "name": "announcement",
+          "line": 134
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse_regulations/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "bs4",
+        "httpx",
+        "logging",
+        "re"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_size",
+          "line": 78
+        },
+        {
+          "type": "function",
+          "name": "_resolve_entity_panes",
+          "line": 84
+        },
+        {
+          "type": "function",
+          "name": "_parse_pane_documents",
+          "line": 104
+        },
+        {
+          "type": "function",
+          "name": "_parse_documents",
+          "line": 137
+        },
+        {
+          "type": "function",
+          "name": "fetch_nse_regulations",
+          "line": 157
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse_regulations/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse_regulations/schema.py",
+      "imports": [
+        "pydantic",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "NseRegulationsRequest",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/bse/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "datetime",
+        "httpx",
+        "logging",
+        "urllib.parse"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_input_date",
+          "line": 111
+        },
+        {
+          "type": "function",
+          "name": "_build_listing_url",
+          "line": 123
+        },
+        {
+          "type": "function",
+          "name": "_parse_notice_date",
+          "line": 145
+        },
+        {
+          "type": "function",
+          "name": "_direct_download_url",
+          "line": 159
+        },
+        {
+          "type": "function",
+          "name": "_parse_response",
+          "line": 164
+        },
+        {
+          "type": "function",
+          "name": "fetch_bse_circulars",
+          "line": 191
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/bse/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/bse/schema.py",
+      "imports": [
+        "pydantic",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "BseCircularRequest",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sat/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "asyncio",
+        "bs4",
+        "dataclasses",
+        "datetime",
+        "dateutil.relativedelta",
+        "http.cookies",
+        "httpx",
+        "logging",
+        "random",
+        "re",
+        "secrets"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "_SatProxySession",
+          "line": 80
+        },
+        {
+          "type": "function",
+          "name": "_parse_input_date",
+          "line": 157
+        },
+        {
+          "type": "function",
+          "name": "_iter_date_chunks",
+          "line": 173
+        },
+        {
+          "type": "function",
+          "name": "_parse_table",
+          "line": 203
+        },
+        {
+          "type": "function",
+          "name": "_fetch_security_token",
+          "line": 261
+        },
+        {
+          "type": "function",
+          "name": "_fetch_date_chunk",
+          "line": 321
+        },
+        {
+          "type": "function",
+          "name": "scrape_sat_orders_datewise",
+          "line": 399
+        },
+        {
+          "type": "function",
+          "name": "request_headers",
+          "line": 87
+        },
+        {
+          "type": "function",
+          "name": "capture_cookies",
+          "line": 96
+        },
+        {
+          "type": "function",
+          "name": "scrapeops_options",
+          "line": 144
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sat/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sat/service copy.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "asyncio",
+        "bs4",
+        "datetime",
+        "dateutil.relativedelta",
+        "httpx",
+        "logging",
+        "random",
+        "re"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_input_date",
+          "line": 75
+        },
+        {
+          "type": "function",
+          "name": "_iter_date_chunks",
+          "line": 87
+        },
+        {
+          "type": "function",
+          "name": "_parse_table",
+          "line": 105
+        },
+        {
+          "type": "function",
+          "name": "_fetch_security_token",
+          "line": 157
+        },
+        {
+          "type": "function",
+          "name": "_fetch_date_chunk",
+          "line": 174
+        },
+        {
+          "type": "function",
+          "name": "scrape_sat_orders_datewise",
+          "line": 209
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sat/schema.py",
+      "imports": [
+        "pydantic",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "SatOrdersDateWiseRequest",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "datetime",
+        "httpx",
+        "logging",
+        "urllib.parse"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_input_date",
+          "line": 61
+        },
+        {
+          "type": "function",
+          "name": "_build_listing_url",
+          "line": 73
+        },
+        {
+          "type": "function",
+          "name": "_parse_circular_id",
+          "line": 88
+        },
+        {
+          "type": "function",
+          "name": "_get_archive_url",
+          "line": 93
+        },
+        {
+          "type": "function",
+          "name": "_parse_issue_date",
+          "line": 98
+        },
+        {
+          "type": "function",
+          "name": "_parse_response",
+          "line": 111
+        },
+        {
+          "type": "function",
+          "name": "fetch_nse_circulars",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/schema.py",
+      "imports": [
+        "pydantic"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "NseCircularsRequest",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sebi/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "app.services.sebi.departments",
+        "app.services.sebi.pdf_circular_extractor",
+        "asyncio",
+        "bs4",
+        "datetime",
+        "httpx",
+        "logging",
+        "re",
+        "typing",
+        "urllib.parse"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_input_date",
+          "line": 457
+        },
+        {
+          "type": "function",
+          "name": "_parse_table",
+          "line": 473
+        },
+        {
+          "type": "function",
+          "name": "_parse_record_count",
+          "line": 507
+        },
+        {
+          "type": "function",
+          "name": "_fetch_page",
+          "line": 519
+        },
+        {
+          "type": "function",
+          "name": "_resolve_landing_details",
+          "line": 570
+        },
+        {
+          "type": "function",
+          "name": "_resolve_landing_details_batch",
+          "line": 665
+        },
+        {
+          "type": "function",
+          "name": "_resolve_missing_departments_from_pdf_batch",
+          "line": 698
+        },
+        {
+          "type": "function",
+          "name": "_resolve_sebi_filter_name_to_id",
+          "line": 807
+        },
+        {
+          "type": "function",
+          "name": "_scrape",
+          "line": 828
+        },
+        {
+          "type": "function",
+          "name": "scrape_sebi_circulars",
+          "line": 1045
+        },
+        {
+          "type": "function",
+          "name": "scrape_sebi_master_circulars",
+          "line": 1050
+        },
+        {
+          "type": "function",
+          "name": "_bounded",
+          "line": 683
+        },
+        {
+          "type": "function",
+          "name": "_resolve_one",
+          "line": 752
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sebi/pdf_circular_extractor.py",
+      "imports": [
+        "__future__",
+        "app.core.http_client",
+        "app.services.sebi.departments",
+        "bs4",
+        "httpx",
+        "io",
+        "logging",
+        "pdfplumber",
+        "pypdfium2",
+        "re",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "clean_circular_candidate",
+          "line": 67
+        },
+        {
+          "type": "function",
+          "name": "extract_circular_no_from_text",
+          "line": 83
+        },
+        {
+          "type": "function",
+          "name": "extract_department_from_header_text",
+          "line": 181
+        },
+        {
+          "type": "function",
+          "name": "extract_text_from_pdf_bytes",
+          "line": 198
+        },
+        {
+          "type": "function",
+          "name": "extract_text_from_html_bytes",
+          "line": 260
+        },
+        {
+          "type": "function",
+          "name": "extract_circular_number_from_pdf_bytes",
+          "line": 279
+        },
+        {
+          "type": "function",
+          "name": "extract_circular_number_from_pdf_url",
+          "line": 290
+        },
+        {
+          "type": "function",
+          "name": "extract_details_from_url",
+          "line": 307
+        },
+        {
+          "type": "function",
+          "name": "_is_valid_candidate",
+          "line": 118
+        },
+        {
+          "type": "function",
+          "name": "_not_dup",
+          "line": 238
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sebi/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sebi/departments.py",
+      "imports": [
+        "__future__",
+        "logging",
+        "re",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_levenshtein",
+          "line": 215
+        },
+        {
+          "type": "function",
+          "name": "detect_department",
+          "line": 236
+        },
+        {
+          "type": "function",
+          "name": "assign_department",
+          "line": 302
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/sebi/schema.py",
+      "imports": [
+        "pydantic",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "SebiCircularRequest",
+          "line": 6
+        },
+        {
+          "type": "class",
+          "name": "SebiMasterCircularRequest",
+          "line": 102
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/announcements/service.py",
+      "imports": [
+        "app.core.cache",
+        "app.core.http_client",
+        "app.services.nse.announcements.constants",
+        "app.services.nse.announcements.schema",
+        "datetime",
+        "httpx",
+        "logging",
+        "typing",
+        "urllib.parse"
+      ],
+      "symbols": [
+        {
+          "type": "function",
+          "name": "_parse_broadcast_dates",
+          "line": 59
+        },
+        {
+          "type": "function",
+          "name": "_build_params",
+          "line": 90
+        },
+        {
+          "type": "function",
+          "name": "_build_url",
+          "line": 109
+        },
+        {
+          "type": "function",
+          "name": "_parse_item",
+          "line": 113
+        },
+        {
+          "type": "function",
+          "name": "_parse_payload",
+          "line": 130
+        },
+        {
+          "type": "function",
+          "name": "_cache_key",
+          "line": 162
+        },
+        {
+          "type": "function",
+          "name": "_ttl_for",
+          "line": 173
+        },
+        {
+          "type": "function",
+          "name": "_warm_up_session",
+          "line": 184
+        },
+        {
+          "type": "function",
+          "name": "fetch_nse_announcements",
+          "line": 222
+        }
+      ]
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/announcements/constants.py",
+      "imports": [
+        "app.core.http_client"
+      ],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/announcements/__init__.py",
+      "imports": [],
+      "symbols": []
+    },
+    {
+      "file": "enforcement_crawl 5/app/services/nse/announcements/schema.py",
+      "imports": [
+        "__future__",
+        "app.services.nse.announcements.constants",
+        "datetime",
+        "pydantic",
+        "typing"
+      ],
+      "symbols": [
+        {
+          "type": "class",
+          "name": "AnnouncementQuery",
+          "line": 22
+        },
+        {
+          "type": "class",
+          "name": "Announcement",
+          "line": 111
+        },
+        {
+          "type": "class",
+          "name": "AnnouncementResponse",
+          "line": 142
+        },
+        {
+          "type": "function",
+          "name": "parse_flexible_date",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/._test_crawler.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/._test_sebi.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/._main.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/tests/._test_nse_announcements.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/tests/._test_sat_proxy_session.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/tests/._test_pdf_fallback.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/tests/._test_departments.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/core/._config.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/core/._auth.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/core/._http_client.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/core/._cache.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/._sat.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/._bse.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/._nse.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/._nse_regulations.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/._sebi.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/router/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse_regulations/._schema.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/bse/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/bse/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/bse/._schema.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sat/._service copy.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sat/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sat/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sat/._schema.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/._schema.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sebi/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sebi/._pdf_circular_extractor.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sebi/._departments.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sebi/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/sebi/._schema.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._service.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._constants.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/.___init__.py",
+      "error": "Could not parse Python source"
+    },
+    {
+      "file": "__MACOSX/enforcement_crawl 5/app/services/nse/announcements/._schema.py",
+      "error": "Could not parse Python source"
+    }
+  ],
+  "import_names": [
+    "__future__",
+    "app.core.auth",
+    "app.core.cache",
+    "app.core.config",
+    "app.core.http_client",
+    "app.router.bse",
+    "app.router.nse",
+    "app.router.nse_regulations",
+    "app.router.sat",
+    "app.router.sebi",
+    "app.services.bse.schema",
+    "app.services.bse.service",
+    "app.services.nse.announcements.constants",
+    "app.services.nse.announcements.schema",
+    "app.services.nse.announcements.service",
+    "app.services.nse.schema",
+    "app.services.nse.service",
+    "app.services.nse_regulations.schema",
+    "app.services.nse_regulations.service",
+    "app.services.sat",
+    "app.services.sat.schema",
+    "app.services.sat.service",
+    "app.services.sebi.departments",
+    "app.services.sebi.pdf_circular_extractor",
+    "app.services.sebi.schema",
+    "app.services.sebi.service",
+    "asyncio",
+    "bs4",
+    "curl_cffi",
+    "curl_cffi.requests",
+    "dataclasses",
+    "datetime",
+    "dateutil.relativedelta",
+    "dotenv",
+    "enum",
+    "fastapi",
+    "fastapi.responses",
+    "fastapi.security",
+    "hashlib",
+    "http.cookies",
+    "httpx",
+    "io",
+    "json",
+    "logging",
+    "logging.config",
+    "os",
+    "pathlib",
+    "pdfplumber",
+    "pydantic",
+    "pydantic_settings",
+    "pypdfium2",
+    "random",
+    "re",
+    "secrets",
+    "threading",
+    "time",
+    "traceback",
+    "typing",
+    "unittest",
+    "unittest.mock",
+    "urllib.parse"
+  ],
+  "project_id": "a18ada5120804ec6b1476194bba0c862"
+}
